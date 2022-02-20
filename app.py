@@ -19,5 +19,5 @@ ma = Marshmallow(app)
 jwt = JWTManager(app)
 mail = Mail(app)
 
-from application import routes
-from application import models
+from backend.application import routes
+from backend.application import models
